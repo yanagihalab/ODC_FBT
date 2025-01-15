@@ -3,6 +3,7 @@ from web3 import Web3
 import os
 import json
 import config
+import math
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -72,6 +73,54 @@ def mint_nft():
             flash("Please provide an NFT name.", 'warning')
 
     return render_template('mint_nft.html')
+
+# 模擬チェックポイント (緯度, 経度)
+CHECKPOINTS = [
+    {"name": "Checkpoint 1", "latitude": 35.6895, "longitude": 139.6917},  # 東京
+    {"name": "Checkpoint 2", "latitude": 34.6937, "longitude": 135.5023},  # 大阪
+    {"name": "Checkpoint 3", "latitude": 35.0116, "longitude": 135.7681},  # 京都
+]
+
+# ハバースインの公式で距離を計算 (km単位)
+def haversine(lat1, lon1, lat2, lon2):
+    R = 6371.0  # 地球の半径 (km)
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = math.sin(dlat / 2)**2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon / 2)**2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+    return R * c
+
+@app.route('/gps', methods=['GET', 'POST'])
+def gps_check():
+    if request.method == 'POST':
+        try:
+            # プルダウンから選択されたチェックポイントを取得
+            selected_checkpoint = request.form['checkpoint']
+            checkpoint = next((cp for cp in CHECKPOINTS if cp["name"] == selected_checkpoint), None)
+
+            if not checkpoint:
+                flash("Invalid checkpoint selected.", "danger")
+                return render_template('gps_form.html', checkpoints=CHECKPOINTS)
+
+            latitude = checkpoint["latitude"]
+            longitude = checkpoint["longitude"]
+
+            # チェックポイントとの距離を計算
+            results = []
+            for cp in CHECKPOINTS:
+                distance = haversine(latitude, longitude, cp["latitude"], cp["longitude"])
+                is_within = distance <= 1.0  # 1km以内をチェックポイントと判定
+                results.append({
+                    "name": cp["name"],
+                    "distance": round(distance, 2),
+                    "is_within": is_within
+                })
+
+            return render_template('gps_results.html', results=results, selected_checkpoint=selected_checkpoint)
+        except Exception as e:
+            flash(f"An error occurred: {str(e)}", "danger")
+
+    return render_template('gps_form.html', checkpoints=CHECKPOINTS)
 
 if __name__ == '__main__':
     app.run(debug=True)
