@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GPS Check</title>
+    <title>GPS チェックポイント確認</title>
+    <style>
+        .success {
+            color: green;
+        }
+        .danger {
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <h1>Select a Checkpoint</h1>
+    <h1>GPS チェックポイント確認</h1>
     <form method="POST">
-        <label for="checkpoint">Choose a checkpoint:</label><br>
+        <label for="checkpoint">シミュレーション位置情報を選択してください:</label><br>
         <select id="checkpoint" name="checkpoint" required>
-            <option value="" disabled selected>Select a checkpoint</option>
+            <option value="" disabled selected>位置情報を選択</option>
             {% for checkpoint in checkpoints %}
             <option value="{{ checkpoint.name }}">{{ checkpoint.name }}</option>
             {% endfor %}
         </select><br><br>
-        <button type="submit">Check</button>
+
+        <button type="submit">確認</button>
     </form>
-    {% with messages = get_flashed_messages(with_categories=true) %}
-    {% if messages %}
-        <ul>
-            {% for category, message in messages %}
-                <li class="{{ category }}">{{ message }}</li>
-            {% endfor %}
-        </ul>
+
+    {% if results %}
+    <h2>結果:</h2>
+    <ul>
+        {% for result in results %}
+        <li class="{{ 'success' if result.is_valid else 'danger' }}">
+            {{ result.simulation_name }} は{{ '有効' if result.is_valid else '無効' }}なチェックポイントです。
+        </li>
+        {% endfor %}
+    </ul>
     {% endif %}
-    {% endwith %}
 </body>
 </html>

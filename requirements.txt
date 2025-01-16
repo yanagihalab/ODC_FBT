@@ -1,0 +1,5 @@
+Flask==2.2.3  # Flask framework
+web3==6.1.0   # Web3.py for Ethereum interaction
+eth-account==0.8.0    # Ethereum account management
+logging==0.5.1.2  # For advanced logging (standard library compatible)
+python-dotenv==1.0.0  # For loading environment variables from .env files
