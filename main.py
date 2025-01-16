@@ -18,7 +18,7 @@ node_url = config.NODE_URL
 print(node_url)
 web3 = Web3(Web3.HTTPProvider(node_url))
 
-if not web3.isConnected():
+if not web3.is_Connected():
     raise Exception("Unable to connect to Ethereum node")
 
 # Load contract ABI and address
