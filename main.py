@@ -179,5 +179,6 @@ def gps_check():
         flash("サーバーエラーが発生しました。管理者にお問い合わせください。", "danger")
         return render_template('gps_form.html', checkpoints=simulation_GPS_list, results=[])
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))  # デフォルトではローカル用にポート 5000 を使用
+    app.run(host="0.0.0.0", port=port)
