@@ -1,73 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - NFT Minting</title>
+    <title>Home - FBT Maker</title>
+    <link rel="stylesheet" href="/static/styles.css">
     <style>
-        /* Reset */
-        body, h1, p, ul, li, a {
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 100vh;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Body Style */
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
+            font-family: Arial, sans-serif;
             text-align: center;
         }
 
-        /* Container */
         .container {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 12px;
-            padding: 30px;
-            max-width: 500px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
         }
 
-        /* Title */
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
+        .actions {
+            margin: 20px 0;
         }
 
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-            color: #d1eaff;
-        }
-
-        /* Button */
-        .button {
-            display: inline-block;
-            padding: 12px 30px;
-            background: linear-gradient(45deg, #6a11cb, #2575fc);
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 30px;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .button:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-        }
-
-        /* Page List */
         .page-list {
-            margin-top: 30px;
+            margin-top: auto; /* ページ下部に配置 */
+            padding: 20px 0;
+            background-color: rgba(255, 255, 255, 0.1);
+            text-align: center;
+            width: 100%;
         }
 
         .page-list ul {
@@ -82,34 +51,35 @@
         .page-list a {
             color: #82cfff;
             text-decoration: none;
-            font-size: 1.1rem;
-            transition: color 0.3s ease, transform 0.3s ease;
         }
 
         .page-list a:hover {
-            color: #fff;
-            transform: translateX(5px);
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to FBT Maker</h1>
-        <p>位置情報を確認して.</p>
-        <a href="/mint_nft" class="button">Mint NFT</a>
+        <header>
+            <h1>Welcome to FBT Maker</h1>
+            <p>位置情報を確認して乗船記念トークン（FBT）を発行しましょう。</p>
+        </header>
 
-        <div class="page-list">
-            <h2>Other Pages</h2>
-            <ul>
-                <li><a href="https://github.com/yanagihalab/ODC_FBT">ソースコード(GitHub)</a></li>
-                <li><a href="https://amoy.polygonscan.com/address/0x56d8cb8824caa15e76206276a5108de0e7386d77">コントラクトアドレス(ブロックチェーンエクスプローラー)</a></li>
-                <li><a href="https://ipfs.yamada.jo.sus.ac.jp/ipfs/QmYTiqNKePCLPvMMBpiutUCZndnBoYN1h3VaBj5ntTZfGv">画像URI</a></li>
-                <li><a href="https://ipfs.yamada.jo.sus.ac.jp/ipfs/QmY3UJUuyWzXmoDPietwqMetqHTwT8KVZ4YjyqYeUeZGUP">メタデータURI</a></li>
-                <li><a href="/contact">スライド</a></li>
-                <li><a href="/terms">Terms and Conditions</a></li>
-                <li><a href="/privacy">Privacy Policy</a></li>                
-            </ul>
+        <div class="actions">
+            <a href="/gps" class="button">記念トークンの発行へ進む</a>
         </div>
     </div>
+
+    <section class="page-list">
+        <h2>Other Pages</h2>
+        <ul>
+            <li><a href="https://github.com/yanagihalab/ODC_FBT" target="_blank" rel="noopener">ソースコード (GitHub)</a></li>
+            <li><a href="https://amoy.polygonscan.com/address/0x56d8cb8824caa15e76206276a5108de0e7386d77" target="_blank" rel="noopener">コントラクトアドレス (ブロックチェーンエクスプローラー)</a></li>
+            <li><a href="https://ipfs.yamada.jo.sus.ac.jp/ipfs/QmYTiqNKePCLPvMMBpiutUCZndnBoYN1h3VaBj5ntTZfGv" target="_blank" rel="noopener">画像URI</a></li>
+            <li><a href="https://ipfs.yamada.jo.sus.ac.jp/ipfs/QmY3UJUuyWzXmoDPietwqMetqHTwT8KVZ4YjyqYeUeZGUP" target="_blank" rel="noopener">メタデータURI</a></li>
+            <li><a href="https://drive.google.com/file/d/1Un88fQq12ABU2Ec4VwAwMT8A-srlzCp7/view?usp=drive_link" target="_blank" rel="noopener">スライド</a></li>
+            <li><a href="/used_data">利用データ</a></li>
+        </ul>
+    </section>
 </body>
 </html>

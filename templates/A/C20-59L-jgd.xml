@@ -1,0 +1,2087 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ksj:Dataset gml:id="C20Dataset" xmlns:ksj="http://nlftp.mlit.go.jp/ksj/schemas/ksj-app" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nlftp.mlit.go.jp/ksj/schemas/ksj-app KsjAppSchema-C20-v1_1.xsd">
+<gml:description>国土数値情報 航路（線） インスタンス文書</gml:description>
+<!-- データ提供範囲 -->
+<gml:boundedBy>
+	<gml:EnvelopeWithTimePeriod srsName="JGD2000 / (B, L)" frame="GC / JST">
+		<gml:lowerCorner>20.00000000 123.00000000</gml:lowerCorner>
+		<gml:upperCorner>46.00000000 154.00000000</gml:upperCorner>
+		<gml:beginPosition calendarEraName="西暦">1900</gml:beginPosition>
+		<gml:endPosition indeterminatePosition="unknown"/>
+	</gml:EnvelopeWithTimePeriod>
+</gml:boundedBy>
+<!-- 空間属性 -->
+<gml:Curve gml:id="cv_604164-000079">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+40.54080556 141.54577778
+40.53880556 141.54913889
+40.53663889 141.54913889
+40.53663889 141.54688889
+40.53763889 141.54702778
+40.53922222 141.54413889
+40.54080556 141.54577778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_604164-000078">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+40.53822222 141.53130556
+40.53647222 141.53455556
+40.53563889 141.53366667
+40.53730556 141.53041667
+40.53822222 141.53130556
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_614026-000077">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+40.85316667 140.75655556
+40.85316667 140.76041667
+40.83408333 140.75022222
+40.83516667 140.74686111
+40.85316667 140.75655556
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533936-000035">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.59980556 139.83213889
+35.60988889 139.82513889
+35.61130556 139.82388889
+35.61288889 139.82713889
+35.61155556 139.82788889
+35.60158333 139.83538889
+35.59980556 139.83213889
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533936-000036">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.60913889 139.76900000
+35.61072222 139.77188889
+35.59863889 139.78050000
+35.58988889 139.78925000
+35.58250000 139.80163889
+35.57975000 139.79850000
+35.59063889 139.78288889
+35.60913889 139.76900000
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_534020-000033">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.55250000 140.07036111
+35.56008333 140.04611111
+35.56200000 140.04736111
+35.55450000 140.07147222
+35.55250000 140.07036111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_534030-000034">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.58925000 140.10236111
+35.59041667 140.07697222
+35.58716667 140.06311111
+35.57100000 140.03111111
+35.57358333 140.02911111
+35.59383333 140.06897222
+35.59241667 140.10261111
+35.58925000 140.10236111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533915-000039">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.45616667 139.65591667
+35.46008333 139.65616667
+35.46066667 139.66441667
+35.45600000 139.67591667
+35.44800000 139.69352778
+35.44275000 139.70227778
+35.43866667 139.69741667
+35.45266667 139.67416667
+35.45625000 139.65827778
+35.41991667 139.62177778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533926-000037">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.50616667 139.77463889
+35.50900000 139.77613889
+35.50808333 139.77900000
+35.50575000 139.79938889
+35.50000000 139.79050000
+35.50566667 139.77763889
+35.50616667 139.77463889
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533915-000038">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.48191667 139.70241667
+35.47908333 139.69952778
+35.47550000 139.69977778
+35.47041667 139.70302778
+35.46850000 139.69877778
+35.47358333 139.69527778
+35.47925000 139.69402778
+35.48358333 139.69816667
+35.48466667 139.70041667
+35.41991667 139.62177778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513760-000043">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.55602778 137.02041667
+34.54836111 137.01177778
+34.57252778 136.98091667
+34.58027778 136.98966667
+34.55602778 137.02041667
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523844-000042">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.02236111 138.51563889
+35.02052778 138.50613889
+35.01719444 138.50077778
+34.99952778 138.50013889
+34.99952778 138.49788889
+35.01902778 138.49863889
+35.02286111 138.50452778
+35.02494444 138.51563889
+35.02236111 138.51563889
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523975-000041">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.32966667 139.72302778
+35.25619444 139.78577778
+35.21211111 139.78627778
+35.21202778 139.76702778
+35.25627778 139.76666667
+35.32925000 139.70427778
+35.32966667 139.72302778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533906-000040">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.40616667 139.77675000
+35.34550000 139.74877778
+35.31236111 139.73791667
+35.32958333 139.72302778
+35.34791667 139.74152778
+35.40833333 139.76938889
+35.40616667 139.77675000
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_553710-000082">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+36.82136111 137.08194444
+36.81977778 137.08844444
+36.79369444 137.07072222
+36.79544444 137.06672222
+36.79677778 137.06511111
+36.82136111 137.08194444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_553711-000083">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+36.78552778 137.22441667
+36.78469444 137.22780556
+36.76552778 137.22772222
+36.76552778 137.22436111
+36.78552778 137.22441667
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_574130-000080">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+38.32077778 141.04516667
+38.32169444 141.04502778
+38.32277778 141.06552778
+38.31947222 141.10016667
+38.30805556 141.12316667
+38.30738889 141.12266667
+38.31863889 141.09977778
+38.32186111 141.06541667
+38.32077778 141.04516667
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_553710-000081">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+36.82361111 137.07319444
+36.82302778 137.07544444
+36.80644444 137.05772222
+36.80502778 137.05672222
+36.80727778 137.05547222
+36.82361111 137.07319444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_492955-000086">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.11522222 129.71411111
+33.11488889 129.71836111
+33.10627778 129.71497222
+33.09930556 129.67686111
+33.10147222 129.66647222
+33.11102778 129.71197222
+33.11522222 129.71411111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_483155-000087">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+32.45341667 131.66108333
+32.45216667 131.66483333
+32.44875000 131.66208333
+32.43991667 131.65208333
+32.44108333 131.65033333
+32.44975000 131.66033333
+32.45341667 131.66108333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_553711-000084">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+36.80877778 137.13219444
+36.80702778 137.13894444
+36.78394444 137.11886111
+36.78211111 137.11422222
+36.78702778 137.11333333
+36.80877778 137.13219444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_492906-000085">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+32.70991667 129.80772222
+32.71391667 129.80772222
+32.71369444 129.83122222
+32.71994444 129.84786111
+32.72927778 129.85711111
+32.72869444 129.85911111
+32.71811111 129.84811111
+32.70961111 129.83011111
+32.70991667 129.80772222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523415-000067">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.76730556 134.62488889
+34.76647222 134.62938889
+34.75811111 134.62647222
+34.73119444 134.62036111
+34.73119444 134.61636111
+34.76730556 134.62488889
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523415-000066">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.76688889 134.65200000
+34.76613889 134.65413889
+34.76322222 134.65288889
+34.75211111 134.65172222
+34.75219444 134.64897222
+34.76288889 134.65013889
+34.76688889 134.65200000
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513520-000069">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.23786111 135.11897222
+34.23519444 135.11822222
+34.23811111 135.10361111
+34.24077778 135.10372222
+34.23786111 135.11897222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513511-000068">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.11588889 135.13722222
+34.11497222 135.13711111
+34.11555556 135.13197222
+34.12297222 135.11836111
+34.12472222 135.11911111
+34.11622222 135.13497222
+34.11588889 135.13722222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503076-000022">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.93325000 130.86836111
+33.93325000 130.87511111
+33.92150000 130.86525000
+33.92425000 130.86236111
+33.93325000 130.86836111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503076-000023">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.94072222 130.86533333
+33.93325000 130.87750000
+33.93325000 130.85811111
+33.93016667 130.83911111
+33.92650000 130.82900000
+33.92341667 130.82450000
+33.92033333 130.82125000
+33.90183333 130.81800000
+33.89583333 130.80686111
+33.89283333 130.80500000
+33.88375000 130.80650000
+33.88600000 130.80461111
+33.89391667 130.80325000
+33.89641667 130.80536111
+33.90191667 130.81500000
+33.92350000 130.81986111
+33.92858333 130.82700000
+33.93208333 130.83611111
+33.93558333 130.85736111
+33.94072222 130.86533333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503066-000024">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.87700000 130.75586111
+33.88275000 130.77875000
+33.88475000 130.78611111
+33.88850000 130.79600000
+33.89075000 130.79925000
+33.89391667 130.80311111
+33.89241667 130.80336111
+33.88816667 130.79775000
+33.88591667 130.79386111
+33.88375000 130.78675000
+33.87616667 130.75625000
+33.87700000 130.75586111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503076-000025">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.95558333 130.84150000
+33.95333333 130.84525000
+33.95050000 130.83200000
+33.95397222 130.83008333
+33.95441667 130.83611111
+33.95558333 130.84150000
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503033-000026">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.61491667 130.39027778
+33.61291667 130.38663889
+33.61791667 130.38202778
+33.63258333 130.34788889
+33.63466667 130.34913889
+33.61950000 130.38477778
+33.61491667 130.39027778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_493043-000027">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+				33.01200000 130.41705556
+				33.00941667 130.40955556
+				33.00375000 130.39516667
+				33.00133333 130.39216667
+				32.97988889 130.39216667
+				32.97988889 130.39180556
+				32.97988889 130.39141667
+				32.97988889 130.39105556
+				32.97988889 130.39041667
+				32.97988889 130.38991667
+				32.97997222 130.38930556
+				32.97997222 130.38841667
+				32.98013889 130.38755556
+				32.98022222 130.38666667
+				32.98038889 130.38605556
+				32.98047222 130.38541667
+				32.98072222 130.38430556
+				32.98088889 130.38341667
+				32.98113889 130.38255556
+				32.98122222 130.38230556
+				33.00438889 130.38230556
+				33.00433333 130.39191667
+				33.01058333 130.40930556
+				33.01316667 130.41641667
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503077-000028">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.98855556 130.87922222
+33.98813889 130.88347222
+33.98038889 130.88347222
+33.95483333 130.87025000
+33.95180556 130.86997222
+33.95666667 130.86325000
+33.96830556 130.87347222
+33.98038889 130.87933333
+33.98855556 130.87922222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533906-000029">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.37850000 139.80013889
+35.38216667 139.80538889
+35.35616667 139.81550000
+35.34844444 139.81950000
+35.34652778 139.81400000
+35.37116667 139.80450000
+35.37850000 139.80013889
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513357-000003">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.42880556 133.93630556
+34.40180556 133.94255556
+34.38913889 133.97905556
+34.39422222 133.98355556
+34.40613889 133.95005556
+34.42988889 133.94369444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513357-000002">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.44622222 133.96894444
+34.42763889 133.98005556
+34.40272222 133.98380556
+34.40322222 133.99094444
+34.42572222 133.98844444
+34.44775000 133.97372222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513441-000001">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.40672222 134.22277778
+34.43888889 134.13752778
+34.45063889 134.05644444
+34.42966667 134.00847222
+34.41466667 133.92947222
+34.38441667 133.83433333
+34.37566667 133.84797222
+34.40308333 133.93458333
+34.41813889 134.01405556
+34.43747222 134.05805556
+34.42716667 134.13180556
+34.39547222 134.21677778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513217-000007">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.15347222 132.91902778
+34.15522222 132.94052778
+34.13052778 132.98680556
+34.12944444 132.98741667
+34.11761111 132.98016667
+34.11869444 132.98841667
+34.12286111 132.99055556
+34.12469444 132.99330556
+34.12219444 132.99691667
+34.11169444 132.99616667
+34.11136111 132.99116667
+34.11177778 132.99041667
+34.11869444 132.98841667
+34.11761111 132.98030556
+34.10769444 132.98491667
+34.08258333 133.01963889
+34.08450000 133.03827778
+34.09808333 133.03638889
+34.09683333 133.02488889
+34.11027778 133.00380556
+34.11744444 133.00091667
+34.13777778 133.00366667
+34.16913889 132.94402778
+34.16688889 132.91763889
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533906-000030">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.39450000 139.80900000
+35.39800000 139.81163889
+35.37508333 139.86000000
+35.37152778 139.85738889
+35.39450000 139.80900000
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513356-000006">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.44141667 133.76158333
+34.42250000 133.77858333
+34.40466667 133.78958333
+34.38516667 133.79797222
+34.36630556 133.80144444
+34.35633333 133.79583333
+34.36791667 133.82322222
+34.37016667 133.81083333
+34.38741667 133.80522222
+34.40525000 133.79783333
+34.42458333 133.78583333
+34.44066667 133.77047222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513334-000005">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.29650000 133.62125000
+34.29638889 133.66922222
+34.30955556 133.69133333
+34.34113889 133.76072222
+34.36783333 133.82333333
+34.37988889 133.84094444
+34.37566667 133.84783333
+34.36116667 133.82647222
+34.33963889 133.77258333
+34.30438889 133.69508333
+34.29005556 133.67008333
+34.29025000 133.62111111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_534020-000032">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.50541667 140.01138889
+35.51558333 140.00188889
+35.51775000 140.00563889
+35.50666667 140.01538889
+35.50541667 140.01138889
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513334-000004">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.31463889 133.61958333
+34.34180556 133.67933333
+34.36750000 133.76433333
+34.38516667 133.79797222
+34.38758333 133.80497222
+34.38233333 133.81483333
+34.38100000 133.82408333
+34.38425000 133.83433333
+34.38005556 133.84094444
+34.37441667 133.83308333
+34.37583333 133.82058333
+34.36758333 133.77797222
+34.36191667 133.76697222
+34.33688889 133.68397222
+34.30938889 133.62372222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_534010-000031">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.48408333 140.00450000
+35.49575000 139.98375000
+35.49800000 139.98563889
+35.48616667 140.00638889
+35.48408333 140.00450000
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_644160-000070">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+43.19833333 141.01322222
+43.19997222 141.02316667
+43.19963889 141.02627778
+43.19888889 141.03002778
+43.19655556 141.03077778
+43.19788889 141.02441667
+43.19541667 141.01497222
+43.19833333 141.01322222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_624055-000071">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+41.79744444 140.70702778
+41.79461111 140.70638889
+41.79536111 140.69452778
+41.79827778 140.69377778
+41.79744444 140.70702778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513440-000009">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.36388889 134.04969444
+34.35608333 134.05008333
+34.35608333 134.05172222
+34.36388889 134.05194444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_624055-000072">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+41.77388889 140.72155556
+41.77272222 140.72030556
+41.78738889 140.71430556
+41.79461111 140.70652778
+41.79744444 140.70702778
+41.78797222 140.71591667
+41.77388889 140.72155556
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513355-000008">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.47888889 133.74433333
+34.48030556 133.74908333
+34.45608333 133.75933333
+34.44666667 133.76458333
+34.44133333 133.76983333
+34.44225000 133.76097222
+34.44783333 133.75583333
+34.45791667 133.75333333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_624055-000073">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+41.80413889 140.71041667
+41.80280556 140.70891667
+41.80738889 140.69830556
+41.80652778 140.69477778
+41.80911111 140.69363889
+41.81055556 140.69905556
+41.80413889 140.71041667
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_634047-000074">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+42.35355556 140.91058333
+42.35358333 140.96111111
+42.34583333 140.97675000
+42.34400000 140.97211111
+42.35025000 140.95961111
+42.35091667 140.94975000
+42.35066667 140.92861111
+42.34888889 140.91597222
+42.34713889 140.90958333
+42.35355556 140.91058333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_644432-000075">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+42.97747222 144.36152778
+42.97555556 144.36116667
+42.97552778 144.35747222
+42.97552778 144.35711111
+42.97794444 144.34961111
+42.97986111 144.35047222
+42.97747222 144.35852778
+42.97747222 144.36152778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_614025-000076">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+40.85316667 140.74305556
+40.85316667 140.74680556
+40.83508333 140.74686111
+40.83500000 140.74497222
+40.83600000 140.74305556
+40.85316667 140.74305556
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523501-000059">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.67241667 135.24358333
+34.67450000 135.24719444
+34.66038889 135.25955556
+34.65822222 135.25605556
+34.67241667 135.24358333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523502-000058">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.70572222 135.28894444
+34.70605556 135.29219444
+34.70013889 135.29319444
+34.69980556 135.28994444
+34.70572222 135.28894444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513573-000057">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.64833333 135.41508333
+34.65325000 135.42219444
+34.65241667 135.42319444
+34.64675000 135.41558333
+34.64833333 135.41508333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513573-000056">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.64000000 135.38583333
+34.64158333 135.39658333
+34.64833333 135.41508333
+34.64675000 135.41558333
+34.63908333 135.39719444
+34.63550000 135.38744444
+34.64000000 135.38583333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503076-000019">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.96091667 130.85725000
+33.95197222 130.86983333
+33.94788889 130.86972222
+33.94680556 130.87033333
+33.93716667 130.88336111
+33.92600000 130.89300000
+33.91200000 130.90300000
+33.90916667 130.91075000
+33.91200000 130.92336111
+33.91425000 130.92575000
+33.94558333 130.93850000
+33.96516667 130.95850000
+33.97850000 130.98450000
+33.97183333 130.99125000
+33.96200000 130.96300000
+33.94325000 130.94325000
+33.90825000 130.92925000
+33.90233333 130.91825000
+33.90100000 130.90300000
+33.91325000 130.89275000
+33.92316667 130.88600000
+33.93325000 130.87750000
+33.95558333 130.84150000
+33.95750000 130.85125000
+33.96108333 130.85625000
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513573-000055">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.60433333 135.43669444
+34.60283333 135.43469444
+34.60608333 135.42369444
+34.60608333 135.39869444
+34.60991667 135.39116667
+34.60875000 135.39655556
+34.60875000 135.42808333
+34.60816667 135.43244444
+34.60433333 135.43669444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503372-000017">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.97263889 133.26327778
+33.97222222 133.26677778
+33.97055556 133.26863889
+33.96997222 133.26763889
+33.97122222 133.26613889
+33.97155556 133.26302778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503324-000018">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.53577778 133.56338889
+33.53586111 133.56213889
+33.51502778 133.56038889
+33.50836111 133.56038889
+33.50236111 133.55913889
+33.50002778 133.56088889
+33.49852778 133.56463889
+33.50077778 133.57363889
+33.50211111 133.57738889
+33.50336111 133.57688889
+33.50202778 133.57327778
+33.50011111 133.56527778
+33.50119444 133.56263889
+33.50286111 133.56138889
+33.50802778 133.56252778
+33.52919444 133.56288889
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513233-000015">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.31308333 132.48661111
+34.31291667 132.48547222
+34.33830556 132.46861111
+34.33847222 132.46972222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503372-000016">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.99091667 133.26352778
+33.98047222 133.26202778
+33.98047222 133.26277778
+33.97105556 133.26088889
+33.96322222 133.26177778
+33.96338889 133.26363889
+33.97088889 133.26288889
+33.98047222 133.26477778
+33.98047222 133.26538889
+33.99183333 133.26702778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513341-000013">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.40283333 133.19363889
+34.40208333 133.19427778
+34.39975000 133.19077778
+34.39075000 133.15388889
+34.38783333 133.14413889
+34.38866667 133.14377778
+34.39158333 133.15352778
+34.40050000 133.19027778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513243-000014">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.35188889 132.48911111
+34.34838889 132.46886111
+34.33830556 132.46886111
+34.31877778 132.37419444
+34.31827778 132.37633333
+34.33775000 132.46997222
+34.34763889 132.46997222
+34.35105556 132.48936111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513341-000011">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.39900000 133.24113889
+34.39900000 133.24213889
+34.40333333 133.24227778
+34.40783333 133.23727778
+34.40908333 133.23263889
+34.40816667 133.23227778
+34.40708333 133.23663889
+34.40300000 133.24113889
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_493217-000012">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+32.76491667 132.94519444
+32.75744444 132.95358333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_503067-000021">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+33.90233333 130.91800000
+33.89966667 130.90800000
+33.89441667 130.89975000
+33.89275000 130.89536111
+33.89358333 130.89400000
+33.89575000 130.89786111
+33.89891667 130.90286111
+33.90100000 130.90300000
+33.90233333 130.91800000
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533322-000020">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.55044444 133.24925000
+35.55477778 133.26936111
+35.55477778 133.28261111
+35.55452778 133.28275000
+35.55436111 133.28275000
+35.55419444 133.28275000
+35.55394444 133.28286111
+35.55377778 133.28286111
+35.55344444 133.28300000
+35.55336111 133.28300000
+35.55336111 133.26975000
+35.54902778 133.24925000
+35.55044444 133.24925000
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523406-000064">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.67430556 134.80586111
+34.67705556 134.80311111
+34.69105556 134.82461111
+34.70055556 134.83286111
+34.69838889 134.83597222
+34.68863889 134.82811111
+34.67430556 134.80586111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523415-000065">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.76052778 134.68347222
+34.76030556 134.68675000
+34.74427778 134.68497222
+34.74452778 134.68161111
+34.76052778 134.68347222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523501-000062">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.67550000 135.19833333
+34.66100000 135.19908333
+34.64941667 135.21108333
+34.64775000 135.20883333
+34.65866667 135.19769444
+34.67525000 135.19658333
+34.67550000 135.19833333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513477-000063">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.62872222 134.97669444
+34.63055556 135.01094444
+34.60730556 135.05294444
+34.59605556 135.04358333
+34.61672222 135.00619444
+34.61572222 134.98633333
+34.62872222 134.97669444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523501-000060">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.68283333 135.21994444
+34.68563889 135.22169444
+34.67908333 135.23558333
+34.67625000 135.23358333
+34.68283333 135.21994444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523501-000061">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.67916667 135.18758333
+34.67266667 135.19133333
+34.65325000 135.18844444
+34.64775000 135.18819444
+34.64791667 135.18544444
+34.65316667 135.18694444
+34.67266667 135.19008333
+34.67866667 135.18658333
+34.67916667 135.18758333
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523635-000049">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.97013889 136.67094444
+34.96688889 136.68344444
+34.96430556 136.68230556
+34.96755556 136.66994444
+34.97013889 136.67094444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523635-000048">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.95038889 136.65244444
+34.94880556 136.67269444
+34.94605556 136.67230556
+34.94772222 136.65205556
+34.95038889 136.65244444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523636-000045">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.99488889 136.78641667
+34.99613889 136.78452778
+35.02097222 136.80844444
+35.02797222 136.84694444
+35.02355556 136.84344444
+35.01788889 136.81194444
+35.01463889 136.80580556
+34.99488889 136.78641667
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523646-000044">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.04055556 136.85677778
+35.03797222 136.85941667
+34.95230556 136.79066667
+34.95405556 136.78716667
+35.04055556 136.85677778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523635-000047">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.95963889 136.64930556
+34.96038889 136.65119444
+34.95155556 136.65630556
+34.94972222 136.66069444
+34.95022222 136.65405556
+34.95963889 136.64930556
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_553657-000091">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+37.08850000 136.97083333
+37.09308333 136.99994444
+37.11263889 137.03247222
+37.12158333 137.08805556
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_523646-000046">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.06763889 136.86666667
+35.03822222 136.85952778
+35.04055556 136.85677778
+35.06805556 136.86452778
+35.06763889 136.86666667
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_473024-000090">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+31.58338889 130.57386111
+31.58188889 130.57411111
+31.58188889 130.56936111
+31.58338889 130.56911111
+31.58338889 130.57386111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513404-000010">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.00863889 134.59802778
+34.01197222 134.59127778
+34.01072222 134.59141667
+34.00730556 134.59752778
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513552-000051">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.45450000 135.32041667
+34.43502778 135.32033333
+34.43502778 135.31794444
+34.45450000 135.31794444
+34.45450000 135.32041667
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513552-000052">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.49183333 135.36769444
+34.50408333 135.36769444
+34.50408333 135.37019444
+34.49183333 135.37008333
+34.49183333 135.36769444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513563-000053">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.55758333 135.40944444
+34.55483333 135.40944444
+34.55483333 135.33466667
+34.55758333 135.33466667
+34.55758333 135.40944444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_513572-000054">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+34.62488889 135.35966667
+34.60933333 135.39241667
+34.60525000 135.39994444
+34.59308333 135.42583333
+34.58733333 135.44033333
+34.58450000 135.44119444
+34.59100000 135.42444444
+34.62022222 135.36355556
+34.62088889 135.36191667
+34.58658333 135.24719444
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_473034-000088">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+31.59813889 130.56872222
+31.59747222 130.56861111
+31.59805556 130.56447222
+31.59830556 130.56447222
+31.59872222 130.56522222
+31.59813889 130.56872222
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_473034-000089">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+31.59072222 130.56986111
+31.58972222 130.56997222
+31.59130556 130.56336111
+31.59222222 130.56322222
+31.59072222 130.56986111
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<gml:Curve gml:id="cv_533522-000050">
+	<gml:segments>
+		<gml:LineStringSegment>
+			<gml:posList>
+35.50713889 135.34180556
+35.51347222 135.34130556
+35.52463889 135.33441667
+35.52413889 135.32905556
+35.51138889 135.33605556
+35.50397222 135.33466667
+35.48075000 135.32716667
+35.48008333 135.33341667
+35.49338889 135.33805556
+			</gml:posList>
+		</gml:LineStringSegment>
+	</gml:segments>
+</gml:Curve>
+<!-- 地物データ -->
+<ksj:SeaRoute gml:id="fi_1">
+	<ksj:location xlink:href="#cv_513441-000001"/>
+	<ksj:seaRouteNumber>1001</ksj:seaRouteNumber>
+	<ksj:name>備讃瀬戸東</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_2">
+	<ksj:location xlink:href="#cv_513357-000002"/>
+	<ksj:seaRouteNumber>1002</ksj:seaRouteNumber>
+	<ksj:name>宇高東</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>1</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_3">
+	<ksj:location xlink:href="#cv_513357-000003"/>
+	<ksj:seaRouteNumber>1003</ksj:seaRouteNumber>
+	<ksj:name>宇高西</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>1</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_4">
+	<ksj:location xlink:href="#cv_513334-000004"/>
+	<ksj:seaRouteNumber>1004</ksj:seaRouteNumber>
+	<ksj:name>備讃瀬戸北</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>1</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_5">
+	<ksj:location xlink:href="#cv_513334-000005"/>
+	<ksj:seaRouteNumber>1005</ksj:seaRouteNumber>
+	<ksj:name>備讃瀬戸南</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>1</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_6">
+	<ksj:location xlink:href="#cv_513356-000006"/>
+	<ksj:seaRouteNumber>1006</ksj:seaRouteNumber>
+	<ksj:name>水島</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_7">
+	<ksj:location xlink:href="#cv_513217-000007"/>
+	<ksj:seaRouteNumber>1007</ksj:seaRouteNumber>
+	<ksj:name>来島海峡</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>1</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_8">
+	<ksj:location xlink:href="#cv_513355-000008"/>
+	<ksj:seaRouteNumber>1008</ksj:seaRouteNumber>
+	<ksj:name>水島港・港内</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_9">
+	<ksj:location xlink:href="#cv_513440-000009"/>
+	<ksj:seaRouteNumber>1009</ksj:seaRouteNumber>
+	<ksj:name>高松港</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_10">
+	<ksj:location xlink:href="#cv_513404-000010"/>
+	<ksj:seaRouteNumber>1010</ksj:seaRouteNumber>
+	<ksj:name>小松島港</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_11">
+	<ksj:location xlink:href="#cv_513341-000011"/>
+	<ksj:seaRouteNumber>1011</ksj:seaRouteNumber>
+	<ksj:name>尾道糸崎港・第１</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_12">
+	<ksj:location xlink:href="#cv_493217-000012"/>
+	<ksj:seaRouteNumber>1012</ksj:seaRouteNumber>
+	<ksj:name>尾道糸崎港・第２</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_13">
+	<ksj:location xlink:href="#cv_513341-000013"/>
+	<ksj:seaRouteNumber>1013</ksj:seaRouteNumber>
+	<ksj:name>尾道糸崎港・第３</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_14">
+	<ksj:location xlink:href="#cv_513243-000014"/>
+	<ksj:seaRouteNumber>1014</ksj:seaRouteNumber>
+	<ksj:name>広島港・第１</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_15">
+	<ksj:location xlink:href="#cv_513233-000015"/>
+	<ksj:seaRouteNumber>1015</ksj:seaRouteNumber>
+	<ksj:name>広島港・第２</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_16">
+	<ksj:location xlink:href="#cv_503372-000016"/>
+	<ksj:seaRouteNumber>1016</ksj:seaRouteNumber>
+	<ksj:name>新居浜港・第１</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_17">
+	<ksj:location xlink:href="#cv_503372-000017"/>
+	<ksj:seaRouteNumber>1017</ksj:seaRouteNumber>
+	<ksj:name>新居浜港・第２</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_18">
+	<ksj:location xlink:href="#cv_503324-000018"/>
+	<ksj:seaRouteNumber>1018</ksj:seaRouteNumber>
+	<ksj:name>高知港</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_19">
+	<ksj:location xlink:href="#cv_503076-000019"/>
+	<ksj:seaRouteNumber>2001</ksj:seaRouteNumber>
+	<ksj:name>関門</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_20">
+	<ksj:location xlink:href="#cv_533322-000020"/>
+	<ksj:seaRouteNumber>2002</ksj:seaRouteNumber>
+	<ksj:name>境</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_21">
+	<ksj:location xlink:href="#cv_503067-000021"/>
+	<ksj:seaRouteNumber>2003</ksj:seaRouteNumber>
+	<ksj:name>砂津</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_22">
+	<ksj:location xlink:href="#cv_503076-000022"/>
+	<ksj:seaRouteNumber>2004</ksj:seaRouteNumber>
+	<ksj:name>戸畑</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_23">
+	<ksj:location xlink:href="#cv_503076-000023"/>
+	<ksj:seaRouteNumber>2005</ksj:seaRouteNumber>
+	<ksj:name>若松</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_24">
+	<ksj:location xlink:href="#cv_503066-000024"/>
+	<ksj:seaRouteNumber>2006</ksj:seaRouteNumber>
+	<ksj:name>奥洞海</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_25">
+	<ksj:location xlink:href="#cv_503076-000025"/>
+	<ksj:seaRouteNumber>2007</ksj:seaRouteNumber>
+	<ksj:name>安瀬</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_26">
+	<ksj:location xlink:href="#cv_503033-000026"/>
+	<ksj:seaRouteNumber>2008</ksj:seaRouteNumber>
+	<ksj:name>博多</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_27">
+	<ksj:location xlink:href="#cv_493043-000027"/>
+	<ksj:seaRouteNumber>2009</ksj:seaRouteNumber>
+	<ksj:name>三池</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_28">
+	<ksj:location xlink:href="#cv_503077-000028"/>
+	<ksj:seaRouteNumber>2010</ksj:seaRouteNumber>
+	<ksj:name>六連島東側自主規制</ksj:name>
+	<ksj:type>3</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_29">
+	<ksj:location xlink:href="#cv_533906-000029"/>
+	<ksj:seaRouteNumber>3001</ksj:seaRouteNumber>
+	<ksj:name>木更津港・富津</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_30">
+	<ksj:location xlink:href="#cv_533906-000030"/>
+	<ksj:seaRouteNumber>3002</ksj:seaRouteNumber>
+	<ksj:name>木更津港・木更津</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_31">
+	<ksj:location xlink:href="#cv_534010-000031"/>
+	<ksj:seaRouteNumber>3003</ksj:seaRouteNumber>
+	<ksj:name>千葉港・椎津</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_32">
+	<ksj:location xlink:href="#cv_534020-000032"/>
+	<ksj:seaRouteNumber>3004</ksj:seaRouteNumber>
+	<ksj:name>千葉港・姉崎</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_33">
+	<ksj:location xlink:href="#cv_534020-000033"/>
+	<ksj:seaRouteNumber>3005</ksj:seaRouteNumber>
+	<ksj:name>千葉港・市原</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_34">
+	<ksj:location xlink:href="#cv_534030-000034"/>
+	<ksj:seaRouteNumber>3006</ksj:seaRouteNumber>
+	<ksj:name>千葉港・千葉</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_35">
+	<ksj:location xlink:href="#cv_533936-000035"/>
+	<ksj:seaRouteNumber>3007</ksj:seaRouteNumber>
+	<ksj:name>京浜港・東京東</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_36">
+	<ksj:location xlink:href="#cv_533936-000036"/>
+	<ksj:seaRouteNumber>3008</ksj:seaRouteNumber>
+	<ksj:name>京浜港・東京西</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_37">
+	<ksj:location xlink:href="#cv_533926-000037"/>
+	<ksj:seaRouteNumber>3009</ksj:seaRouteNumber>
+	<ksj:name>京浜港・川崎</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_38">
+	<ksj:location xlink:href="#cv_533915-000038"/>
+	<ksj:seaRouteNumber>3010</ksj:seaRouteNumber>
+	<ksj:name>京浜港・鶴見</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_39">
+	<ksj:location xlink:href="#cv_533915-000039"/>
+	<ksj:seaRouteNumber>3011</ksj:seaRouteNumber>
+	<ksj:name>京浜港・横浜</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_40">
+	<ksj:location xlink:href="#cv_533906-000040"/>
+	<ksj:seaRouteNumber>3012</ksj:seaRouteNumber>
+	<ksj:name>中ノ瀬</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>3</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_41">
+	<ksj:location xlink:href="#cv_523975-000041"/>
+	<ksj:seaRouteNumber>3013</ksj:seaRouteNumber>
+	<ksj:name>浦賀水道</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>1</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_42">
+	<ksj:location xlink:href="#cv_523844-000042"/>
+	<ksj:seaRouteNumber>3014</ksj:seaRouteNumber>
+	<ksj:name>清水港</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_43">
+	<ksj:location xlink:href="#cv_513760-000043"/>
+	<ksj:seaRouteNumber>3015</ksj:seaRouteNumber>
+	<ksj:name>伊良湖水道</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_44">
+	<ksj:location xlink:href="#cv_523646-000044"/>
+	<ksj:seaRouteNumber>3016</ksj:seaRouteNumber>
+	<ksj:name>名古屋港・外港第１</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_45">
+	<ksj:location xlink:href="#cv_523636-000045"/>
+	<ksj:seaRouteNumber>3017</ksj:seaRouteNumber>
+	<ksj:name>名古屋港・外港第２</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_46">
+	<ksj:location xlink:href="#cv_523646-000046"/>
+	<ksj:seaRouteNumber>3018</ksj:seaRouteNumber>
+	<ksj:name>名古屋港・内港</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_47">
+	<ksj:location xlink:href="#cv_523635-000047"/>
+	<ksj:seaRouteNumber>3019</ksj:seaRouteNumber>
+	<ksj:name>四日市港・午起</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_48">
+	<ksj:location xlink:href="#cv_523635-000048"/>
+	<ksj:seaRouteNumber>3020</ksj:seaRouteNumber>
+	<ksj:name>四日市港・第１</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_49">
+	<ksj:location xlink:href="#cv_523635-000049"/>
+	<ksj:seaRouteNumber>3021</ksj:seaRouteNumber>
+	<ksj:name>四日市港・第２</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_50">
+	<ksj:location xlink:href="#cv_533522-000050"/>
+	<ksj:seaRouteNumber>3022</ksj:seaRouteNumber>
+	<ksj:name>舞鶴港</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_51">
+	<ksj:location xlink:href="#cv_513552-000051"/>
+	<ksj:seaRouteNumber>3023</ksj:seaRouteNumber>
+	<ksj:name>阪南港・泉佐野</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_52">
+	<ksj:location xlink:href="#cv_513552-000052"/>
+	<ksj:seaRouteNumber>3024</ksj:seaRouteNumber>
+	<ksj:name>阪南港・岸和田</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_53">
+	<ksj:location xlink:href="#cv_513563-000053"/>
+	<ksj:seaRouteNumber>3025</ksj:seaRouteNumber>
+	<ksj:name>大阪港・浜寺</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_54">
+	<ksj:location xlink:href="#cv_513572-000054"/>
+	<ksj:seaRouteNumber>3026</ksj:seaRouteNumber>
+	<ksj:name>大阪港・堺南</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_55">
+	<ksj:location xlink:href="#cv_513573-000055"/>
+	<ksj:seaRouteNumber>3027</ksj:seaRouteNumber>
+	<ksj:name>大阪港・堺北</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_56">
+	<ksj:location xlink:href="#cv_513573-000056"/>
+	<ksj:seaRouteNumber>3028</ksj:seaRouteNumber>
+	<ksj:name>大阪港・内港</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_57">
+	<ksj:location xlink:href="#cv_513573-000057"/>
+	<ksj:seaRouteNumber>3029</ksj:seaRouteNumber>
+	<ksj:name>大阪港・安治川</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_58">
+	<ksj:location xlink:href="#cv_523502-000058"/>
+	<ksj:seaRouteNumber>3030</ksj:seaRouteNumber>
+	<ksj:name>神戸港・東神戸</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_59">
+	<ksj:location xlink:href="#cv_523501-000059"/>
+	<ksj:seaRouteNumber>3031</ksj:seaRouteNumber>
+	<ksj:name>神戸港・第３</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_60">
+	<ksj:location xlink:href="#cv_523501-000060"/>
+	<ksj:seaRouteNumber>3032</ksj:seaRouteNumber>
+	<ksj:name>神戸港・新港</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_61">
+	<ksj:location xlink:href="#cv_523501-000061"/>
+	<ksj:seaRouteNumber>3033</ksj:seaRouteNumber>
+	<ksj:name>神戸港・第１</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_62">
+	<ksj:location xlink:href="#cv_523501-000062"/>
+	<ksj:seaRouteNumber>3034</ksj:seaRouteNumber>
+	<ksj:name>神戸港・第２</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_63">
+	<ksj:location xlink:href="#cv_513477-000063"/>
+	<ksj:seaRouteNumber>3035</ksj:seaRouteNumber>
+	<ksj:name>明石海峡</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>1</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_64">
+	<ksj:location xlink:href="#cv_523406-000064"/>
+	<ksj:seaRouteNumber>3036</ksj:seaRouteNumber>
+	<ksj:name>東播磨港</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_65">
+	<ksj:location xlink:href="#cv_523415-000065"/>
+	<ksj:seaRouteNumber>3037</ksj:seaRouteNumber>
+	<ksj:name>姫路港・東</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_66">
+	<ksj:location xlink:href="#cv_523415-000066"/>
+	<ksj:seaRouteNumber>3038</ksj:seaRouteNumber>
+	<ksj:name>姫路港・飾磨</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_67">
+	<ksj:location xlink:href="#cv_523415-000067"/>
+	<ksj:seaRouteNumber>3039</ksj:seaRouteNumber>
+	<ksj:name>姫路港・広畑</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_68">
+	<ksj:location xlink:href="#cv_513511-000068"/>
+	<ksj:seaRouteNumber>3040</ksj:seaRouteNumber>
+	<ksj:name>和歌山下津港・下津</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_69">
+	<ksj:location xlink:href="#cv_513520-000069"/>
+	<ksj:seaRouteNumber>3041</ksj:seaRouteNumber>
+	<ksj:name>和歌山下津港・北区</ksj:name>
+	<ksj:type>2</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_70">
+	<ksj:location xlink:href="#cv_644160-000070"/>
+	<ksj:seaRouteNumber>7001</ksj:seaRouteNumber>
+	<ksj:name>小樽港航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_71">
+	<ksj:location xlink:href="#cv_624055-000071"/>
+	<ksj:seaRouteNumber>7002</ksj:seaRouteNumber>
+	<ksj:name>函館港第１航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_72">
+	<ksj:location xlink:href="#cv_624055-000072"/>
+	<ksj:seaRouteNumber>7003</ksj:seaRouteNumber>
+	<ksj:name>函館港第２航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_73">
+	<ksj:location xlink:href="#cv_624055-000073"/>
+	<ksj:seaRouteNumber>7004</ksj:seaRouteNumber>
+	<ksj:name>函館港第３航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_74">
+	<ksj:location xlink:href="#cv_634047-000074"/>
+	<ksj:seaRouteNumber>7005</ksj:seaRouteNumber>
+	<ksj:name>室蘭港航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_75">
+	<ksj:location xlink:href="#cv_644432-000075"/>
+	<ksj:seaRouteNumber>7006</ksj:seaRouteNumber>
+	<ksj:name>釧路港航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_76">
+	<ksj:location xlink:href="#cv_614025-000076"/>
+	<ksj:seaRouteNumber>7007</ksj:seaRouteNumber>
+	<ksj:name>青森港西航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_77">
+	<ksj:location xlink:href="#cv_614026-000077"/>
+	<ksj:seaRouteNumber>7008</ksj:seaRouteNumber>
+	<ksj:name>青森港東航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_78">
+	<ksj:location xlink:href="#cv_604164-000078"/>
+	<ksj:seaRouteNumber>7009</ksj:seaRouteNumber>
+	<ksj:name>八戸港西航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_79">
+	<ksj:location xlink:href="#cv_604164-000079"/>
+	<ksj:seaRouteNumber>7010</ksj:seaRouteNumber>
+	<ksj:name>八戸港東航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_80">
+	<ksj:location xlink:href="#cv_574130-000080"/>
+	<ksj:seaRouteNumber>7011</ksj:seaRouteNumber>
+	<ksj:name>塩竃港航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_81">
+	<ksj:location xlink:href="#cv_553710-000081"/>
+	<ksj:seaRouteNumber>7012</ksj:seaRouteNumber>
+	<ksj:name>伏木富山港国分航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_82">
+	<ksj:location xlink:href="#cv_553710-000082"/>
+	<ksj:seaRouteNumber>7013</ksj:seaRouteNumber>
+	<ksj:name>伏木富山港伏木航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_83">
+	<ksj:location xlink:href="#cv_553711-000083"/>
+	<ksj:seaRouteNumber>7014</ksj:seaRouteNumber>
+	<ksj:name>伏木富山港富山航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_84">
+	<ksj:location xlink:href="#cv_553711-000084"/>
+	<ksj:seaRouteNumber>7015</ksj:seaRouteNumber>
+	<ksj:name>伏木富山港新湊航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_85">
+	<ksj:location xlink:href="#cv_492906-000085"/>
+	<ksj:seaRouteNumber>7016</ksj:seaRouteNumber>
+	<ksj:name>長崎港航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_86">
+	<ksj:location xlink:href="#cv_492955-000086"/>
+	<ksj:seaRouteNumber>7017</ksj:seaRouteNumber>
+	<ksj:name>佐世保港航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_87">
+	<ksj:location xlink:href="#cv_483155-000087"/>
+	<ksj:seaRouteNumber>7018</ksj:seaRouteNumber>
+	<ksj:name>細島港航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_88">
+	<ksj:location xlink:href="#cv_473034-000088"/>
+	<ksj:seaRouteNumber>7019</ksj:seaRouteNumber>
+	<ksj:name>鹿児島港第１航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_89">
+	<ksj:location xlink:href="#cv_473034-000089"/>
+	<ksj:seaRouteNumber>7020</ksj:seaRouteNumber>
+	<ksj:name>鹿児島港第２航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_90">
+	<ksj:location xlink:href="#cv_473024-000090"/>
+	<ksj:seaRouteNumber>7021</ksj:seaRouteNumber>
+	<ksj:name>鹿児島港第３航路</ksj:name>
+	<ksj:type>1</ksj:type>
+	<ksj:direction>2</ksj:direction>
+</ksj:SeaRoute>
+<ksj:SeaRoute gml:id="fi_91">
+	<ksj:location xlink:href="#cv_553657-000091"/>
+	<ksj:seaRouteNumber>7022</ksj:seaRouteNumber>
+	<ksj:name>七尾港航路</ksj:name>
+	<ksj:type>3</ksj:type>
+	<ksj:direction>1</ksj:direction>
+</ksj:SeaRoute>
+</ksj:Dataset>

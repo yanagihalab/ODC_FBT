@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT 詳細情報</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background: #0b325c;
+            color: white;
+        }
+
+        .details {
+            max-width: 600px;
+            margin: 20px auto;
+            background: white;
+            color: black;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .details h1 {
+            margin-bottom: 20px;
+        }
+
+        .details p {
+            margin: 10px 0;
+        }
+
+        .details .txn-hash,
+        .details .token-id {
+            color: black; /* トランザクションハッシュとトークンIDの文字色を黒に設定 */
+            font-weight: bold;
+        }
+
+        .details a {
+            color: blue; /* リンクを青色に設定 */
+            word-break: break-all; /* 長いURLを途中で改行 */
+            white-space: normal; /* 改行を許可 */
+        }
+
+        figure {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        figure img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        figure figcaption {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="details">
+        {% if error %}
+        <h1>NFT 情報の取得に失敗しました</h1>
+        <p class="error">{{ error }}</p>
+        {% else %}
+        <h1>FBT 詳細情報</h1>
+        <p><span>トランザクションハッシュ:</span> <span class="txn-hash">{{ txn_hash }}</span></p>
+        <p><span>トランザクションの詳細:</span> <a href="https://amoy.polygonscan.com/tx/{{ txn_hash }}" target="_blank">https://amoy.polygonscan.com/tx/{{ txn_hash }}</a></p>
+        <p><span>トークンID:</span> <span class="token-id">{{ token_id }}</span></p>
+        <p><span>NFT Metadata:</span> <a href="{{ token_uri }}" target="_blank">{{ token_uri }}</a></p>
+        <p><span>トークンURI:</span> <a href="https://amoy.polygonscan.com/tx/{{ txn_hash }}" target="_blank">
+        
+        <!-- 画像とキャプション -->
+        <figure>
+            <img src="https://raw.githubusercontent.com/yanagihalab/ODC_FBT/main/FBT.png" alt="NFT画像">
+            <figcaption>ブロックチェーンに関連付けられたNFTの画像です。</figcaption>
+        </figure>
+        {% endif %}
+    </div>
+</body>
+</html>

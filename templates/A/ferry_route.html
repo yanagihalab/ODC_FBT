@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ebf7f385e2b1abfbbb9a6482c2b5229c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ebf7f385e2b1abfbbb9a6482c2b5229c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ebf7f385e2b1abfbbb9a6482c2b5229c = L.map(
+                "map_ebf7f385e2b1abfbbb9a6482c2b5229c",
+                {
+                    center: [30.0, 133.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_99e2799d4a2b23ecbe4bb855d2b512ff = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_99e2799d4a2b23ecbe4bb855d2b512ff.addTo(map_ebf7f385e2b1abfbbb9a6482c2b5229c);
+        
+    
+            var marker_1607e26c4bbece942094f3cc163bcc1b = L.marker(
+                [35.652832, 139.839478],
+                {
+}
+            ).addTo(map_ebf7f385e2b1abfbbb9a6482c2b5229c);
+        
+    
+        var popup_ba6d11362fb81b3bfe14447afd49ba7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4fa18235479ac345fd65d5c35124c9b = $(`<div id="html_e4fa18235479ac345fd65d5c35124c9b" style="width: 100.0%; height: 100.0%;">Tokyo</div>`)[0];
+                popup_ba6d11362fb81b3bfe14447afd49ba7d.setContent(html_e4fa18235479ac345fd65d5c35124c9b);
+            
+        
+
+        marker_1607e26c4bbece942094f3cc163bcc1b.bindPopup(popup_ba6d11362fb81b3bfe14447afd49ba7d)
+        ;
+
+        
+    
+    
+            var marker_12f6fe3e01971a137490d6d124cde863 = L.marker(
+                [26.212401, 127.67923],
+                {
+}
+            ).addTo(map_ebf7f385e2b1abfbbb9a6482c2b5229c);
+        
+    
+        var popup_7e54273e08156bdb80059acf7b543714 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75c2e01fd48b155013bcc1aea8b33525 = $(`<div id="html_75c2e01fd48b155013bcc1aea8b33525" style="width: 100.0%; height: 100.0%;">Okinawa</div>`)[0];
+                popup_7e54273e08156bdb80059acf7b543714.setContent(html_75c2e01fd48b155013bcc1aea8b33525);
+            
+        
+
+        marker_12f6fe3e01971a137490d6d124cde863.bindPopup(popup_7e54273e08156bdb80059acf7b543714)
+        ;
+
+        
+    
+    
+            var poly_line_93ef88b3a91d06e0d66e0411c01e44c8 = L.polyline(
+                [[35.652832, 139.839478], [26.212401, 127.67923]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_ebf7f385e2b1abfbbb9a6482c2b5229c);
+        
+</script>
+</html>

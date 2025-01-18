@@ -4,38 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GPS チェックポイント確認</title>
+    <link rel="stylesheet" href="/static/styles.css">
     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+            color: black;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
         .success {
             color: green;
         }
+
         .danger {
             color: red;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #f8f8f8;
+            padding: 10px 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>GPS チェックポイント確認</h1>
-    <form method="POST">
-        <label for="checkpoint">シミュレーション位置情報を選択してください:</label><br>
-        <select id="checkpoint" name="checkpoint" required>
-            <option value="" disabled selected>位置情報を選択</option>
-            {% for checkpoint in checkpoints %}
-            <option value="{{ checkpoint.name }}">{{ checkpoint.name }}</option>
+    <div class="container">
+        <h1>GPSを取得 <span style="color: red;">[チェックポイント確認]</span></h1>
+        <form method="POST">
+            <label for="checkpoint">シミュレーション位置情報を選択してください:</label>
+            <select id="checkpoint" name="checkpoint" required>
+                <option value="" disabled selected>位置情報を選択</option>
+                {% for checkpoint in checkpoints %}
+                <option value="{{ checkpoint.name }}">{{ checkpoint.name }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit", class="button">確認</button>
+        </form>
+
+        {% if results %}
+        <h2>結果:</h2>
+        <ul>
+            {% for result in results %}
+            <li class="{{ 'success' if result.is_valid else 'danger' }}">
+                {{ result.simulation_name }} は{{ '有効' if result.is_valid else '無効' }}なチェックポイントです。
+            </li>
             {% endfor %}
-        </select><br><br>
+        </ul>
+        {% endif %}
+    </div>
 
-        <button type="submit">確認</button>
-    </form>
-
-    {% if results %}
-    <h2>結果:</h2>
-    <ul>
-        {% for result in results %}
-        <li class="{{ 'success' if result.is_valid else 'danger' }}">
-            {{ result.simulation_name }} は{{ '有効' if result.is_valid else '無効' }}なチェックポイントです。
-        </li>
-        {% endfor %}
-    </ul>
-    {% endif %}
+    <footer>
+        <p>※補足説明: 本システムはGPSシミュレーションに<br>
+            基づいて動作しています。実際のGPS値とは異なる場合があります。</p>
+    </footer>
 </body>
 </html>

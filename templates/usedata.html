@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用データ一覧</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .data-list {
+            flex: 1;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .data-list h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: black; /* 黒文字に設定 */
+        }
+
+        .data-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .data-list li {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .data-list li:last-child {
+            border-bottom: none;
+        }
+
+        .data-list li strong {
+            color: #4CAF50;
+        }
+
+        footer {
+            background: #f8f8f8;
+            padding: 10px 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            margin-top: auto;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="data-list">
+        <h1>使用データ一覧</h1>
+        <ul>
+            <li><strong>データ名:</strong> サンプルデータ1<br><strong>説明:</strong> テスト用のGPS座標データ。</li>
+            <li><strong>データ名:</strong> サンプルデータ2<br><strong>説明:</strong> 位置情報に基づくチェックポイントのリスト。</li>
+            <li><strong>データ名:</strong> サンプルデータ3<br><strong>説明:</strong> シミュレーション用の経緯度情報。</li>
+            <li><strong>データ名:</strong> サンプルデータ4<br><strong>説明:</strong> NFT発行のためのメタデータURI。</li>
+            <li><strong>データ名:</strong> サンプルデータ5<br><strong>説明:</strong> ブロックチェーンアドレスと関連データ。</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>※本ページに記載のデータはシステム動作確認用です。</p>
+    </footer>
+</body>
+</html>

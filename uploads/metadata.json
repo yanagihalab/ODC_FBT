@@ -1,0 +1,27 @@
+{
+    "name": "Ferry Boarding Token",
+    "description": "Unique NFT representing the boarding experience..",
+    "image": "https://raw.githubusercontent.com/yanagihalab/ODC_FBT/main/FBT.png",
+    "attributes": [
+        {
+            "trips": "乗船航路(ferry route)",
+            "value": "[01]八幡浜港～[04]臼杵港"
+          },
+          {
+        "trait_type": "Ship Name",
+        "value": "TEST"
+      },
+      {
+        "trait_type": "Destination",
+        "value": "Bahamas"
+      },
+      {
+        "trait_type": "Cruise Class",
+        "value": "Luxury"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Legendary"
+      }
+    ]
+  }
