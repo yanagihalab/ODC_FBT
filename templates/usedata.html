@@ -12,6 +12,8 @@
             min-height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: black; /* ページ全体を黒文字に設定 */
         }
 
         .data-list {
@@ -27,7 +29,7 @@
         .data-list h1 {
             text-align: center;
             margin-bottom: 20px;
-            color: black; /* 黒文字に設定 */
+            color: black; /* 黒文字 */
         }
 
         .data-list ul {
@@ -39,6 +41,7 @@
             margin: 10px 0;
             padding: 10px;
             border-bottom: 1px solid #ddd;
+            color: black; /* 黒文字 */
         }
 
         .data-list li:last-child {
@@ -46,7 +49,16 @@
         }
 
         .data-list li strong {
-            color: #4CAF50;
+            color: black; /* 強調部分も黒文字に設定 */
+        }
+
+        a {
+            color: black; /* リンクも黒文字に設定 */
+            text-decoration: none; /* 下線を削除 */
+        }
+
+        a:hover {
+            text-decoration: underline; /* ホバー時に下線を表示 */
         }
 
         footer {
@@ -55,12 +67,13 @@
             text-align: center;
             border-top: 1px solid #ddd;
             margin-top: auto;
+            color: black; /* 黒文字 */
         }
 
         footer p {
             margin: 0;
             font-size: 0.9rem;
-            color: #555;
+            color: black; /* 黒文字 */
         }
     </style>
 </head>
@@ -68,11 +81,17 @@
     <div class="data-list">
         <h1>使用データ一覧</h1>
         <ul>
-            <li><strong>データ名:</strong> サンプルデータ1<br><strong>説明:</strong> テスト用のGPS座標データ。</li>
-            <li><strong>データ名:</strong> サンプルデータ2<br><strong>説明:</strong> 位置情報に基づくチェックポイントのリスト。</li>
-            <li><strong>データ名:</strong> サンプルデータ3<br><strong>説明:</strong> シミュレーション用の経緯度情報。</li>
-            <li><strong>データ名:</strong> サンプルデータ4<br><strong>説明:</strong> NFT発行のためのメタデータURI。</li>
-            <li><strong>データ名:</strong> サンプルデータ5<br><strong>説明:</strong> ブロックチェーンアドレスと関連データ。</li>
+            <li>
+                <strong>データ名:</strong> 公共交通オープンデータセンター
+                (<a href="https://ckan.odpt.org/" target="_blank">https://ckan.odpt.org/</a>)<br>
+                <strong>説明:</strong> 宇和島運輸株式会社のGTFS/GTFS-JPデータを利用して、
+                位置情報に基づくチェックポイントリスト作成や路線情報や始発-終着港情報の取得。
+            </li>
+            <li>
+                <strong>データ名:</strong> 国土交通省国土地理院
+                (<a href="https://www.gsi.go.jp/" target="_blank">https://www.gsi.go.jp/</a>)<br>
+                <strong>説明:</strong> 地理院地図を利用したテスト用の経度緯度の座標データと航路の経度緯度の座標データ。
+            </li>
         </ul>
     </div>
 

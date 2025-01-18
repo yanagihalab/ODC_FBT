@@ -40,6 +40,10 @@ contract = web3.eth.contract(address=contract_address, abi=contract_abi)
 def toppage():
     return render_template('index.html')
 
+@app.route('/used_data')
+def use_data():
+    return render_template('usedata.html')
+
 @app.route('/nft_metadata', methods=['GET'])
 def get_nft_metadata():
     with open(JSON_FILE_PATH, 'r', encoding='utf-8') as file:
