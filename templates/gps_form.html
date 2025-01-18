@@ -114,7 +114,8 @@
                 <option value="{{ checkpoint.name }}">{{ checkpoint.name }}</option>
                 {% endfor %}
             </select>
-            <button type="submit", class="button">確認</button>
+            <form action="/nft_check" method="POST">
+                <button type="submit" class="button">確認</button>
         </form>
 
         {% if results %}

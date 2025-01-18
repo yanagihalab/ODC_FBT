@@ -4,8 +4,8 @@
     "image": "https://raw.githubusercontent.com/yanagihalab/ODC_FBT/main/FBT.png",
     "attributes": [
         {
-            "trips": "乗船航路(ferry route)",
-            "value": "[01]八幡浜港～[04]臼杵港"
+            "trips": "ferry route",
+            "value": "[01](yawatakou)～[04](usukikou)"
           },
           {
         "trait_type": "Ship Name",

@@ -172,7 +172,7 @@ def gps_check():
                 if input_latitude == loc["latitude"] :
                     if input_longitude == loc["longitude"]:
                         flash(f"乗船ありがとうございます。\n 有効な位置情報が確認されました。 \n 乗船記念NFTを発行します。", "success")
-                        return redirect(url_for('mint_nft'))  # エンドポイント名 'mint_nft' にリダイレクト
+                        return redirect(url_for('nft_check'))  # エンドポイント名 'mint_nft' にリダイレクト
 
         # GETリクエストまたは無効な場合
         return render_template('gps_form.html', checkpoints=simulation_GPS_list)
